@@ -1,0 +1,33 @@
+body{
+
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-image:linear-gradient(179.04deg,#BBB8BF,#EBEBF2);
+    background-size: 100%;
+}
+.circular{
+    border-radius: 60%;
+}
+.contenedor{
+    position: absolute;
+    align-items: center;
+}
+.texto{
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-image: linear-gradient(0deg, black , rgba(0, 0, 0, 0.349));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: -60%;
+    top: 5%;
+    left: 10%;
+}
+.texto:hover{
+    bottom: 5%;
+}
